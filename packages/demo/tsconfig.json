@@ -1,0 +1,15 @@
+{
+  "extends": "../../node_modules/eslint-config-velis/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "vue-datetime": ["../lib/src/vue-datetime3.ts"],
+    }
+  },
+  "include": [
+    "/src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo app for vue datetime",
+  "author": "Mario Juárez <mario@mjp.one>",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "vite",
+    "demo": "vite --mode demo"
+  },
+  "dependencies": {
+    "vue-datetime3": "*",
+    "luxon": "^3.3.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vite": "^4.1.4"
+  },
+  "license": "MIT"
+}

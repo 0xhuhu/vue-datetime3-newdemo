@@ -1,0 +1,46 @@
+{
+  "name": "vue-datetime3-newdemo",
+  "version": "1.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -ws --if-present",
+    "demo": "concurrently \"npm run demo --w demo\" \"npm run watch -w vue-datetime3\"",
+    "build": "cp README.md packages/lib && npm run build -ws --if-present",
+    "test": "npm run test -ws --if-present",
+    "tsc": "vue-tsc --noEmit -p tsconfig.tsc.json",
+    "version": "npm run version -ws --if-present"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.21.4",
+    "concurrently": "^8.0.1",
+    "pre-commit": "^1.2.0",
+    "typescript": "^4.9.5",
+    "vue-datepicker-minitest": "^8.2.3"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "vue-datepicker-minitest": "^8.2.3"
+  },
+  "pre-commit": "--no-verify",
+  "engines": {
+    "node": "^18.10.0",
+    "npm": "^9.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "velis"
+    ],
+    "rules": {
+      "vuejs-accessibility/click-events-have-key-events": "off",
+      "vuejs-accessibility/form-control-has-label": "off",
+      "vuejs-accessibility/label-has-for": "off"
+    },
+    "ignorePatterns": [
+      "coverage/*",
+      "node_modules/*",
+      "build/*"
+    ]
+  }
+}

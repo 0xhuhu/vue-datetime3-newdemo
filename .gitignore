@@ -1,0 +1,23 @@
+# editors
+.DS_Store
+.idea
+
+# node modules
+node_modules/
+
+# package managers
+package-lock.json
+yarn.lock
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# build destinations
+dist
+# packages/demo/dist
+
+# testing utils
+packages/lib/test/coverage
+reports
+packages/lib/README.md

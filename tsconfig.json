@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/eslint-config-velis/tsconfig.json",
+  "include": [
+    "packages/demo/**/*",
+    "packages/lib/src/**/*",
+    "viteBaseConfig.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ]
+}

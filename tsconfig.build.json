@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "packages/demo/**/*",
+    "node_modules",
+    "packages/lib/test/**/*",
+    "viteBaseConfig.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist"
+  }
+}
