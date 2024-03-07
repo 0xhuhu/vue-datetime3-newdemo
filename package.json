@@ -1,6 +1,8 @@
 {
   "name": "vue-datetime3-newdemo",
   "version": "1.0.1",
+  "homepage": "https://github.com/0xhuhu/vue-datetime3-newdemo.git",
+  "description": "Datepicker component for Vue 3",
   "workspaces": [
     "packages/*"
   ],
