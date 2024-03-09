@@ -1,6 +1,6 @@
 {
   "name": "vue-datetime3-newdemo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/0xhuhu/vue-datetime3-newdemo.git",
   "description": "Datepicker component for Vue 3",
   "workspaces": [
@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "date-fns": "^3.3.1",
-    "vue-datepicker-minitest": "^8.2.3"
+    "vue-datepicker-minitest": "^9.0.1",
+    "react-day-picker-trial": "^9.0.0"
   },
   "pre-commit": "--no-verify",
   "engines": {
