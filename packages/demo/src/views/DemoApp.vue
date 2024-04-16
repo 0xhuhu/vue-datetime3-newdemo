@@ -2,22 +2,7 @@
   <div id="app" class="page">
     <h1><a href="https://github.com/mariomka/vue-datetime">vue-datetime demo</a></h1>
 
-    <h2>Date</h2>
 
-    <div class="example">
-      <div class="example-inputs">
-        <date-time v-model="date" :week-start="1"/>
-
-        <div class="values">
-          <p>
-            <strong>Value:</strong> {{ date }}
-          </p>
-        </div>
-      </div>
-      <div class="example-code">
-        <pre><code>&#x3C;datetime v-model=&#x22;date&#x22;/&#x3E;</code></pre>
-      </div>
-    </div>
 
     <h2>Datetime</h2>
 
@@ -33,6 +18,23 @@
       </div>
       <div class="example-code">
         <pre><code>&#x3C;datetime type=&#x22;datetime&#x22; v-model=&#x22;datetime&#x22;/&#x3E;</code></pre>
+      </div>
+    </div>
+
+    <h2>Date</h2>
+
+    <div class="example">
+      <div class="example-inputs">
+        <date-time v-model="date" :week-start="1"/>
+
+        <div class="values">
+          <p>
+            <strong>Value:</strong> {{ date }}
+          </p>
+        </div>
+      </div>
+      <div class="example-code">
+        <pre><code>&#x3C;datetime v-model=&#x22;date&#x22;/&#x3E;</code></pre>
       </div>
     </div>
 
